@@ -1,0 +1,23 @@
+/*
+Weather Observation Station 1
+=============================
+
+Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
+
+##Input Format
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | INTEGER    |
+| CITY        | VARCHAR(21)|
+| STATE       | VARCHAR(2) |
+| LAT_N       | NUMERIC    |
+| LONG_W      | NUMERIC    |
++-------------+------------+
+
+Where LAT_N is the northern latitude and LONG_W is the western longitude.
+*/
+
+SELECT DISRINCT CITY
+FROM STATION
+WHERE CITY REGEXP '[aeiou]$';
