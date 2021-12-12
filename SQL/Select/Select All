@@ -1,5 +1,6 @@
 /*
 Query all columns for every row in the CITY table.
+
 ## Input Format
 +-------------+--------------+
 | Field       | Type         |
