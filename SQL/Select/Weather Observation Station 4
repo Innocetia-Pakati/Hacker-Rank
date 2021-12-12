@@ -1,0 +1,18 @@
+/*
+Weather Observation Station 4
+=============================
+Query the number of non-unique CITY names in STATION by subtracting the number of unique CITY entries in the table from the total number of CITY entries in the table.
+
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | INTEGER    |
+| CITY        | VARCHAR(21)|
+| STATE       | VARCHAR(2) |
+| LAT_N       | NUMERIC    |
+| LONG_W      | NUMERIC    |
++-------------+------------+
+*/
+
+SELECT COUNT(CITY) - COUNT(DISTINCT CITY)
+FROM STATION;  
