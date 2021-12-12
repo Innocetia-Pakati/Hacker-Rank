@@ -2,7 +2,9 @@
 Weather Observation Station 3
 =============================
 Query a list of CITY names from STATION with even ID numbers only. 
-ou may print the results in any order, but must exclude duplicates from your answer.
+You may print the results in any order, but must exclude duplicates from your answer.
+
+##Input Format
 
 +-------------+------------+
 | Field       |   Type     |
