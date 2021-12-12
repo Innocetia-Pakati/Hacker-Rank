@@ -3,6 +3,7 @@ Weather Observation Station 4
 =============================
 Query the number of non-unique CITY names in STATION by subtracting the number of unique CITY entries in the table from the total number of CITY entries in the table.
 
+##Input Format
 +-------------+------------+
 | Field       |   Type     |
 +-------------+------------+
