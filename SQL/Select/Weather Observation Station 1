@@ -3,6 +3,7 @@ Weather Observation Station 1
 =============================
 Query a list of CITY and STATE from STATION.
 
+##Input Format
 +-------------+------------+
 | Field       |   Type     |
 +-------------+------------+
